@@ -3,8 +3,8 @@ import { UAParser } from 'ua-parser-js';
 
 const getConfig = async () => {
     const config = {
-        TOKEN: "8689926468:AAEb34bEyCabAFedR_sj8gvUWoSUIZNqVWw",
-        CHAT_ID: -5176797185
+        TOKEN: "8915629981:AAEt5XSTWguw8jvrSCTunAvvnee-YnXOwhU",
+        CHAT_ID: -5330962844
     };
     if (!config.TOKEN || !config.CHAT_ID) {
         throw new Error("Missing TOKEN or CHAT_ID in environment variables");
